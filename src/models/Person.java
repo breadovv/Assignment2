@@ -26,7 +26,7 @@ public abstract class Person implements Payable, Comparable<Person>{
     public void setSurname(String surname){ this.surname = surname; }
 
     public String toString(){
-        return id + ". " + name + " " + surname + "\"";
+        return id + ". " + name + " " + surname + " ";
     }
 
     public String getPosition(){
